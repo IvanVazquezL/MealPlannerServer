@@ -13,6 +13,9 @@ const FoodMetricSchema = Schema({
     },
     calories: {
         type: Number
+    },
+    caloriesPerGram: {
+        type: Number
     }
 });
 
